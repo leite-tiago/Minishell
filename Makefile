@@ -88,12 +88,12 @@ FILES = minishell parse/array_build/args parse/array_build/init_cmd \
 SRC		= $(FILES:=.c)
 OBJ		= $(FILES:=.o)
 HEADER = includes/minishell.h
-# INCLUDES	= -I includes -I $(LIBFT_DIR)
-# LDFLAGS	+= -lreadline
+INCLUDES	= -I includes -I $(LIBFT_DIR)
+LDFLAGS	+= -lreadline
 
 # leite: no meu pc dá se usar isto ############################################
-LDFLAGS += -L/opt/homebrew/opt/readline/lib -lreadline
-INCLUDES += -I/opt/homebrew/opt/readline/include -I includes -I $(LIBFT_DIR)
+# LDFLAGS += -L/opt/homebrew/opt/readline/lib -lreadline
+# INCLUDES += -I/opt/homebrew/opt/readline/include -I includes -I $(LIBFT_DIR)
 ###############################################################################
 
 
