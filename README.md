@@ -47,7 +47,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/teu-username/minishell.git
+   git clone https://github.com/leite-tiago/minishell.git
    cd minishell
    ```
 
