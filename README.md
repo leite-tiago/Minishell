@@ -38,11 +38,6 @@ You will gain extensive knowledge about processes and file descriptors.
   - `env`
   - `exit`
 
-## 🌟 Bonus (only evaluated if mandatory part is perfect)
-
-- Logical operators: `&&`, `||` with parenthesis
-- Wildcards (`*`) for current directory matching
-
 ## ⚙️ Compilation
 
 ```bash
