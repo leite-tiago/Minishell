@@ -35,10 +35,6 @@
 - Environment variable expansion (`$VAR`, `$?`).
 - Proper signal handling (`ctrl-C`, `ctrl-D`, `ctrl-\`).
 
-### **Bonus Features**
-- Logical operators: `&&`, `||` with parenthesis support.
-- Wildcard expansion (`*`) for matching filenames.
-
 ---
 
 ## 🚀 Getting Started
